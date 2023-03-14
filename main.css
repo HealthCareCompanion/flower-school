@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: orange;
+    padding: 1.2rem 2rem;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-list button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(202, 194, 194);
+    align-items: center;
+}
+
+.menu-list button:hover{
+    background-color: white;
+}
+
+.logo{
+    font-size: 35px;
+    text-align: center;
+}
+
+.logo :hover{
+    background-color: rgb(255, 166, 0);
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 6px;
+}
+
+/* main page */
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+

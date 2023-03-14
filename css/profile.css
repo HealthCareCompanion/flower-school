@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+body{
+    background-color: rgb(185, 179, 179);
+}
+.student-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.student-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+

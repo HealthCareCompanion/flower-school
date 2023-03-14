@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+
+.body{
+    margin-top: 5%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(185, 179, 179);
+}
